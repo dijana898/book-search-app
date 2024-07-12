@@ -1,6 +1,7 @@
 # Book Search Web Application
 
 This web application allows users to search for books from a merged dataset of JSON and CSV files.
+You can access the Book Search Web Application [here](https://dijana898.github.io/book-search-app/).
 
 ## Features
 
