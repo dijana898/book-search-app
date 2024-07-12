@@ -1,0 +1,44 @@
+/* Block */
+.book-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Element */
+  .book-list__item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px 0;
+    width: 80%;
+    text-align: left;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  /* Element */
+  .book-list__title {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Element */
+  .book-list__author, .book-list__genre {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  /* Modifier */
+  .book-list__highlight {
+    font-weight: bold;
+    color: red;
+  }
+  
+  @media (max-width: 600px) {
+    .book-list__item {
+      width: 100%;
+    }
+  }
+  

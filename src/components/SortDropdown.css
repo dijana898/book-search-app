@@ -1,0 +1,10 @@
+.sort-dropdown {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sort-dropdown__select {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
